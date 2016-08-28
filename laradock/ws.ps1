@@ -1,0 +1,1 @@
+docker exec -it projectflyer_workspace_1 bash
