@@ -1,1 +1,4 @@
-docker-compose start
+docker start projectflyer_nginx_1
+docker start projectflyer_php-fpm_1
+docker start projectflyer_mysql_1
+docker start projectflyer_workspace_1

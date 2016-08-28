@@ -1,1 +1,4 @@
-docker-compose stop
+docker stop projectflyer_nginx_1
+docker stop projectflyer_php-fpm_1
+docker stop projectflyer_mysql_1
+docker stop projectflyer_workspace_1
