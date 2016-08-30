@@ -4,6 +4,7 @@
         <title>Project Flyer</title>
         <link rel="stylesheet" href="/css/app.css">
         <link rel="stylesheet" href="/css/libs.css">
+        @yield('styles')
     </head>
     <body>
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -31,6 +32,7 @@
             @yield('content')
         </div>
         <script src="/js/libs.js"></script>
+        @yield('scripts.footer')
         @include('flash')
     </body>
 </html>
